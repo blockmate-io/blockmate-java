@@ -30,7 +30,7 @@ import org.openapitools.jackson.nullable.JsonNullable;
  * Movement
  */
 @ApiModel(description = "Movement")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-12T18:04:32.906834+02:00[Europe/Vienna]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-13T07:52:13.151942+02:00[Europe/Vienna]")
 public class Movement {
   public static final String SERIALIZED_NAME_ADDRESS = "address";
   @SerializedName(SERIALIZED_NAME_ADDRESS)

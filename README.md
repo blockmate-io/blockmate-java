@@ -24,7 +24,7 @@ After the client library is installed/deployed, you can use it in your Maven pro
 
 ```xml
 <dependency>
-    <groupId>org.openapitools</groupId>
+    <groupId>io.blockmate</groupId>
     <artifactId>blockmate</artifactId>
     <version>0.0.1</version>
     <scope>compile</scope>

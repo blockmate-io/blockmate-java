@@ -28,7 +28,7 @@ import java.io.IOException;
  * Represents a user
  */
 @ApiModel(description = "Represents a user")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-12T18:04:32.906834+02:00[Europe/Vienna]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-13T07:52:13.151942+02:00[Europe/Vienna]")
 public class User {
   public static final String SERIALIZED_NAME_UUID = "uuid";
   @SerializedName(SERIALIZED_NAME_UUID)

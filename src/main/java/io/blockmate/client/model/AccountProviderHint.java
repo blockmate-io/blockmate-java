@@ -29,7 +29,7 @@ import java.io.IOException;
  * Account provider hint containing info about what is needed to connect such an account
  */
 @ApiModel(description = "Account provider hint containing info about what is needed to connect such an account")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-12T18:04:32.906834+02:00[Europe/Vienna]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-13T07:52:13.151942+02:00[Europe/Vienna]")
 public class AccountProviderHint {
   public static final String SERIALIZED_NAME_ACCOUNT_NAME = "account_name";
   @SerializedName(SERIALIZED_NAME_ACCOUNT_NAME)
