@@ -13,6 +13,7 @@ import io.blockmate.client.model.Account;
 import io.blockmate.client.model.AccountProvider;
 import io.blockmate.client.model.AccountProviderHint;
 import io.blockmate.client.model.Balance200Response;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import io.blockmate.client.model.Transactions200Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject400Response;
@@ -65,15 +66,17 @@ public interface AggregatedInfoApi {
   /**
    * Get transactions
    * 
-   * @param since Set time from which the transactions will be get. The parameter is passed as-is to backend services. The default value is 30 days before the actual date or 30 days before the date specified in \&quot;until\&quot; parameter.  (optional)
-   * @param until Set time to which the transactions will be get. The parameter is passed as-is to backend services. The default value is the actual date.  (optional)
+   * @param since Set time from which the transactions will be get.  (optional)
+   * @param until Set time to which the transactions will be get. The default value is the actual date.  (optional)
+   * @param limit Limit the number of the transactions in the response. Default page size is 50.  (optional)
+   * @param cursor Specify on requesting the next page. Use the &#x60;page_cursor&#x60; from the previous response.  (optional)
    * @param currency Currency to convert to.  (optional)
    * @param accountFilter Filter results to only provided account. When omitted, it returns all transactions from all accounts.  (optional)
    * @return Call&lt;Transactions200Response&gt;
    */
   @GET("v1/aggregate/transactions")
   Call<Transactions200Response> transactions(
-    @retrofit2.http.Query("since") LocalDate since, @retrofit2.http.Query("until") LocalDate until, @retrofit2.http.Query("currency") String currency, @retrofit2.http.Query("account-filter") String accountFilter
+    @retrofit2.http.Query("since") LocalDate since, @retrofit2.http.Query("until") LocalDate until, @retrofit2.http.Query("limit") Double limit, @retrofit2.http.Query("cursor") String cursor, @retrofit2.http.Query("currency") String currency, @retrofit2.http.Query("account-filter") String accountFilter
   );
 
 }

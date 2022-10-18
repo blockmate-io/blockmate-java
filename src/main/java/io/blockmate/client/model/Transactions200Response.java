@@ -31,8 +31,12 @@ import java.util.List;
 /**
  * Transactions200Response
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-13T07:52:13.151942+02:00[Europe/Vienna]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
 public class Transactions200Response {
+  public static final String SERIALIZED_NAME_PAGE_CURSOR = "page_cursor";
+  @SerializedName(SERIALIZED_NAME_PAGE_CURSOR)
+  private String pageCursor;
+
   public static final String SERIALIZED_NAME_ACCOUNTS = "accounts";
   @SerializedName(SERIALIZED_NAME_ACCOUNTS)
   private List<Transactions200ResponseAccountsInner> accounts = null;
@@ -43,6 +47,29 @@ public class Transactions200Response {
 
   public Transactions200Response() {
   }
+
+  public Transactions200Response pageCursor(String pageCursor) {
+    
+    this.pageCursor = pageCursor;
+    return this;
+  }
+
+   /**
+   * Use this as &#x60;cursor&#x60; in the next request to get the next page. The &#x60;page_cursor&#x60; has a one hour validity.
+   * @return pageCursor
+  **/
+  @javax.annotation.Nullable
+  @ApiModelProperty(value = "Use this as `cursor` in the next request to get the next page. The `page_cursor` has a one hour validity.")
+
+  public String getPageCursor() {
+    return pageCursor;
+  }
+
+
+  public void setPageCursor(String pageCursor) {
+    this.pageCursor = pageCursor;
+  }
+
 
   public Transactions200Response accounts(List<Transactions200ResponseAccountsInner> accounts) {
     
@@ -112,19 +139,21 @@ public class Transactions200Response {
       return false;
     }
     Transactions200Response transactions200Response = (Transactions200Response) o;
-    return Objects.equals(this.accounts, transactions200Response.accounts) &&
+    return Objects.equals(this.pageCursor, transactions200Response.pageCursor) &&
+        Objects.equals(this.accounts, transactions200Response.accounts) &&
         Objects.equals(this.transactions, transactions200Response.transactions);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(accounts, transactions);
+    return Objects.hash(pageCursor, accounts, transactions);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class Transactions200Response {\n");
+    sb.append("    pageCursor: ").append(toIndentedString(pageCursor)).append("\n");
     sb.append("    accounts: ").append(toIndentedString(accounts)).append("\n");
     sb.append("    transactions: ").append(toIndentedString(transactions)).append("\n");
     sb.append("}");
