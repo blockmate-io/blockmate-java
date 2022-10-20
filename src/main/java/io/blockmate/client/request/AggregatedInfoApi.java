@@ -15,6 +15,7 @@ import io.blockmate.client.model.AccountProviderHint;
 import io.blockmate.client.model.Balance200Response;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import io.blockmate.client.model.NFTMetadata200ResponseValue;
 import io.blockmate.client.model.Transactions200Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject400Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject401Response;
@@ -62,6 +63,15 @@ public interface AggregatedInfoApi {
   Call<Balance200Response> balance(
     @retrofit2.http.Query("currency") String currency
   );
+
+  /**
+   * Get NFT metadata
+   * 
+   * @return Call&lt;Map&lt;String, NFTMetadata200ResponseValue&gt;&gt;
+   */
+  @GET("v1/aggregate/nft_metadata")
+  Call<Map<String, NFTMetadata200ResponseValue>> nFTMetadata();
+    
 
   /**
    * Get transactions
