@@ -49,8 +49,15 @@ src/main/java/io/blockmate/client/model/GetAccountHint200Response.java
 src/main/java/io/blockmate/client/model/GetAccountHint200ResponseFields.java
 src/main/java/io/blockmate/client/model/GetAccountHint403Response.java
 src/main/java/io/blockmate/client/model/GetAccountHint404Response.java
-src/main/java/io/blockmate/client/model/GetAddressNameInfo200Response.java
+src/main/java/io/blockmate/client/model/GetAddressFromDomain200Response.java
+src/main/java/io/blockmate/client/model/GetAddressNameInfoSingle200Response.java
 src/main/java/io/blockmate/client/model/GetAddressRiskScore200Response.java
+src/main/java/io/blockmate/client/model/GetAnalytics200Response.java
+src/main/java/io/blockmate/client/model/GetAnalytics200ResponseValue.java
+src/main/java/io/blockmate/client/model/GetDomainFromAddress200Response.java
+src/main/java/io/blockmate/client/model/GetDomainFromAddress200ResponseMetadata.java
+src/main/java/io/blockmate/client/model/GetDomainFromAddress200ResponseMetadataAttributesInner.java
+src/main/java/io/blockmate/client/model/GetDomainFromAddress200ResponseMetadataAttributesInnerValue.java
 src/main/java/io/blockmate/client/model/GetTransactionRiskScore200Response.java
 src/main/java/io/blockmate/client/model/GetUser404Response.java
 src/main/java/io/blockmate/client/model/Metadata.java
@@ -78,7 +85,9 @@ src/main/java/io/blockmate/client/model/UserAPIAuthenticateProject401Response.ja
 src/main/java/io/blockmate/client/request/AccountProviderInfoApi.java
 src/main/java/io/blockmate/client/request/AddressNameAndCategoryInfoApi.java
 src/main/java/io/blockmate/client/request/AggregatedInfoApi.java
+src/main/java/io/blockmate/client/request/AnalyticsApi.java
 src/main/java/io/blockmate/client/request/AuthenticationApi.java
+src/main/java/io/blockmate/client/request/EnsApi.java
 src/main/java/io/blockmate/client/request/ExchangeRateInfoApi.java
 src/main/java/io/blockmate/client/request/RiskInfoApi.java
 src/main/java/io/blockmate/client/request/UserManagementApi.java

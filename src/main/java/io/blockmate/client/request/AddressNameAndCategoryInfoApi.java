@@ -9,7 +9,7 @@ import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import okhttp3.MultipartBody;
 
-import io.blockmate.client.model.GetAddressNameInfo200Response;
+import io.blockmate.client.model.GetAddressNameInfoSingle200Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject400Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject401Response;
 
@@ -20,14 +20,29 @@ import java.util.Map;
 
 public interface AddressNameAndCategoryInfoApi {
   /**
-   * Get address name and category info
+   * Get address name and category info for multiple addresses
    * 
-   * @param address Address for wich name and category should be returned (required)
    * @param chain Blockchain identifier (required)
-   * @return Call&lt;GetAddressNameInfo200Response&gt;
+   * @param requestBody OK (optional)
+   * @return Call&lt;Map&lt;String, GetAddressNameInfoSingle200Response&gt;&gt;
+   */
+  @Headers({
+    "Content-Type:application/json"
+  })
+  @POST("v1/addressname/multi")
+  Call<Map<String, GetAddressNameInfoSingle200Response>> getAddressNameInfoMulti(
+    @retrofit2.http.Query("chain") String chain, @retrofit2.http.Body List<String> requestBody
+  );
+
+  /**
+   * Get address name and category info for single address
+   * 
+   * @param address Address for which name and category should be returned (required)
+   * @param chain Blockchain identifier (required)
+   * @return Call&lt;GetAddressNameInfoSingle200Response&gt;
    */
   @GET("v1/addressname/simple")
-  Call<GetAddressNameInfo200Response> getAddressNameInfo(
+  Call<GetAddressNameInfoSingle200Response> getAddressNameInfoSingle(
     @retrofit2.http.Query("address") String address, @retrofit2.http.Query("chain") String chain
   );
 

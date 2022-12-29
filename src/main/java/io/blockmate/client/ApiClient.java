@@ -99,7 +99,7 @@ public class ApiClient {
   public void createDefaultAdapter() {
     json = new JSON();
 
-    String baseUrl = "http://localhost";
+    String baseUrl = "https://api.blockmate.io";
     if (!baseUrl.endsWith("/"))
       baseUrl = baseUrl + "/";
 
