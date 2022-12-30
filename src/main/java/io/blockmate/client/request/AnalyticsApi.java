@@ -21,7 +21,7 @@ import java.util.Map;
 public interface AnalyticsApi {
   /**
    * Get analytics focused on gaming
-   * Get analytics focused on gaming. All empty values are omitted from the response.
+   * Get analytics focused on gaming. All empty values are omitted from the response. Values are recalculated once per day.
    * @param accountProvider URL value from account_providers method (required)
    * @param accountId Account ID (required)
    * @return Call&lt;GetAnalytics200Response&gt;
