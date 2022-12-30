@@ -31,6 +31,8 @@ src/main/java/io/blockmate/client/model/AccountProviderHintFields.java
 src/main/java/io/blockmate/client/model/AddressRiskReport.java
 src/main/java/io/blockmate/client/model/AddressRiskReportDetails.java
 src/main/java/io/blockmate/client/model/Amount.java
+src/main/java/io/blockmate/client/model/Analytics.java
+src/main/java/io/blockmate/client/model/Analytics1.java
 src/main/java/io/blockmate/client/model/AuthUser200Response.java
 src/main/java/io/blockmate/client/model/Balance200Response.java
 src/main/java/io/blockmate/client/model/BalanceResponse.java
@@ -52,8 +54,6 @@ src/main/java/io/blockmate/client/model/GetAccountHint404Response.java
 src/main/java/io/blockmate/client/model/GetAddressFromDomain200Response.java
 src/main/java/io/blockmate/client/model/GetAddressNameInfoSingle200Response.java
 src/main/java/io/blockmate/client/model/GetAddressRiskScore200Response.java
-src/main/java/io/blockmate/client/model/GetAnalytics200Response.java
-src/main/java/io/blockmate/client/model/GetAnalytics200ResponseValue.java
 src/main/java/io/blockmate/client/model/GetDomainFromAddress200Response.java
 src/main/java/io/blockmate/client/model/GetDomainFromAddress200ResponseMetadata.java
 src/main/java/io/blockmate/client/model/GetDomainFromAddress200ResponseMetadataAttributesInner.java
