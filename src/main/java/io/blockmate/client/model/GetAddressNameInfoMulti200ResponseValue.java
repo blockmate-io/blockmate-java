@@ -25,18 +25,22 @@ import io.swagger.annotations.ApiModelProperty;
 import java.io.IOException;
 
 /**
- * CreateUserRequest
+ * GetAddressNameInfoMulti200ResponseValue
  */
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
-public class CreateUserRequest {
+public class GetAddressNameInfoMulti200ResponseValue {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
   private String name;
 
-  public CreateUserRequest() {
+  public static final String SERIALIZED_NAME_CATEGORY = "category";
+  @SerializedName(SERIALIZED_NAME_CATEGORY)
+  private String category;
+
+  public GetAddressNameInfoMulti200ResponseValue() {
   }
 
-  public CreateUserRequest name(String name) {
+  public GetAddressNameInfoMulti200ResponseValue name(String name) {
     
     this.name = name;
     return this;
@@ -59,6 +63,29 @@ public class CreateUserRequest {
   }
 
 
+  public GetAddressNameInfoMulti200ResponseValue category(String category) {
+    
+    this.category = category;
+    return this;
+  }
+
+   /**
+   * Get category
+   * @return category
+  **/
+  @javax.annotation.Nullable
+  @ApiModelProperty(example = "some-category", value = "")
+
+  public String getCategory() {
+    return category;
+  }
+
+
+  public void setCategory(String category) {
+    this.category = category;
+  }
+
+
   @Override
   public boolean equals(Object o) {
     if (this == o) {
@@ -67,20 +94,22 @@ public class CreateUserRequest {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    CreateUserRequest createUserRequest = (CreateUserRequest) o;
-    return Objects.equals(this.name, createUserRequest.name);
+    GetAddressNameInfoMulti200ResponseValue getAddressNameInfoMulti200ResponseValue = (GetAddressNameInfoMulti200ResponseValue) o;
+    return Objects.equals(this.name, getAddressNameInfoMulti200ResponseValue.name) &&
+        Objects.equals(this.category, getAddressNameInfoMulti200ResponseValue.category);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(name);
+    return Objects.hash(name, category);
   }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class CreateUserRequest {\n");
+    sb.append("class GetAddressNameInfoMulti200ResponseValue {\n");
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
+    sb.append("    category: ").append(toIndentedString(category)).append("\n");
     sb.append("}");
     return sb.toString();
   }

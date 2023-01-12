@@ -22,7 +22,7 @@ public interface ExchangeRateInfoApi {
   /**
    * Get current exchange rate
    * 
-   * @param pairs Currency pairs for which exchange rate should be returned (required)
+   * @param pairs Currency pairs for which exchange rate should be returned (max 20 per request) (required)
    * @return Call&lt;List&lt;ExchangeRate&gt;&gt;
    */
   @GET("v1/exchangerate/current")
@@ -34,7 +34,7 @@ public interface ExchangeRateInfoApi {
    * Get historical exchange rate
    * 
    * @param pair Currency pair for which exchange rates should be returned (required)
-   * @param days Historical dates for which exchange rates should be returned (required)
+   * @param days Historical dates for which exchange rates should be returned (max 40 per request) (required)
    * @return Call&lt;List&lt;ExchangeRate&gt;&gt;
    */
   @GET("v1/exchangerate/history")

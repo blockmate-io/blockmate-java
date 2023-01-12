@@ -58,6 +58,21 @@ public interface RiskInfoApi {
   );
 
   /**
+   * Get multiple risk scores for addresses
+   * 
+   * @param chain Blockchain identifier (optional)
+   * @param requestBody Addresses for which risk should be returned (maximum of 5000 in one request) (optional)
+   * @return Call&lt;Map&lt;String, Integer&gt;&gt;
+   */
+  @Headers({
+    "Content-Type:application/json"
+  })
+  @POST("v1/risk/score")
+  Call<Map<String, Integer>> getMultipleAddressRiskScore(
+    @retrofit2.http.Query("chain") String chain, @retrofit2.http.Body List<String> requestBody
+  );
+
+  /**
    * Get transaction risk score
    * 
    * @param transaction Transaction hash for which risk should be returned (optional)

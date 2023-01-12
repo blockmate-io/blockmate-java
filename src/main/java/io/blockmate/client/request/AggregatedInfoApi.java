@@ -29,19 +29,19 @@ public interface AggregatedInfoApi {
   /**
    * Get list of account providers hints
    * 
-   * @return Call&lt;AccountProviderHint&gt;
+   * @return Call&lt;List&lt;AccountProviderHint&gt;&gt;
    */
   @GET("v1/aggregate/account_provider_hints")
-  Call<AccountProviderHint> accountProviderHintsList();
+  Call<List<AccountProviderHint>> accountProviderHintsList();
     
 
   /**
    * Get list of account providers
    * 
-   * @return Call&lt;AccountProvider&gt;
+   * @return Call&lt;List&lt;AccountProvider&gt;&gt;
    */
   @GET("v1/aggregate/account_providers")
-  Call<AccountProvider> accountProvidersList();
+  Call<List<AccountProvider>> accountProvidersList();
     
 
   /**
@@ -57,11 +57,12 @@ public interface AggregatedInfoApi {
    * Get balance
    * 
    * @param currency Currency to convert to.  (optional)
+   * @param accountFilter Filter results to only provided account. When omitted, it returns all transactions from all accounts.  (optional)
    * @return Call&lt;Balance200Response&gt;
    */
   @GET("v1/aggregate/balance")
   Call<Balance200Response> balance(
-    @retrofit2.http.Query("currency") String currency
+    @retrofit2.http.Query("currency") String currency, @retrofit2.http.Query("account-filter") String accountFilter
   );
 
   /**

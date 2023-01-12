@@ -9,6 +9,7 @@ import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import okhttp3.MultipartBody;
 
+import io.blockmate.client.model.GetAddressNameInfoMulti200ResponseValue;
 import io.blockmate.client.model.GetAddressNameInfoSingle200Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject400Response;
 import io.blockmate.client.model.UserAPIAuthenticateProject401Response;
@@ -23,14 +24,14 @@ public interface AddressNameAndCategoryInfoApi {
    * Get address name and category info for multiple addresses
    * 
    * @param chain Blockchain identifier (required)
-   * @param requestBody OK (optional)
-   * @return Call&lt;Map&lt;String, GetAddressNameInfoSingle200Response&gt;&gt;
+   * @param requestBody Addresses for which name and category should be returned (maximum of 5000 in one request) (optional)
+   * @return Call&lt;Map&lt;String, GetAddressNameInfoMulti200ResponseValue&gt;&gt;
    */
   @Headers({
     "Content-Type:application/json"
   })
   @POST("v1/addressname/multi")
-  Call<Map<String, GetAddressNameInfoSingle200Response>> getAddressNameInfoMulti(
+  Call<Map<String, GetAddressNameInfoMulti200ResponseValue>> getAddressNameInfoMulti(
     @retrofit2.http.Query("chain") String chain, @retrofit2.http.Body List<String> requestBody
   );
 

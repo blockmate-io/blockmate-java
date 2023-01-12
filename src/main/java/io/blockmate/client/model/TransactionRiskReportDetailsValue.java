@@ -28,10 +28,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * AddressRiskReportDetails
+ * TransactionRiskReportDetailsValue
  */
 @javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen")
-public class AddressRiskReportDetails {
+public class TransactionRiskReportDetailsValue {
   public static final String SERIALIZED_NAME_OWN_CATEGORIES = "own_categories";
   @SerializedName(SERIALIZED_NAME_OWN_CATEGORIES)
   private List<RiskReportCategory> ownCategories = null;
@@ -40,16 +40,16 @@ public class AddressRiskReportDetails {
   @SerializedName(SERIALIZED_NAME_SOURCE_OF_FUNDS_CATEGORIES)
   private List<RiskReportCategory> sourceOfFundsCategories = null;
 
-  public AddressRiskReportDetails() {
+  public TransactionRiskReportDetailsValue() {
   }
 
-  public AddressRiskReportDetails ownCategories(List<RiskReportCategory> ownCategories) {
+  public TransactionRiskReportDetailsValue ownCategories(List<RiskReportCategory> ownCategories) {
     
     this.ownCategories = ownCategories;
     return this;
   }
 
-  public AddressRiskReportDetails addOwnCategoriesItem(RiskReportCategory ownCategoriesItem) {
+  public TransactionRiskReportDetailsValue addOwnCategoriesItem(RiskReportCategory ownCategoriesItem) {
     if (this.ownCategories == null) {
       this.ownCategories = new ArrayList<>();
     }
@@ -74,13 +74,13 @@ public class AddressRiskReportDetails {
   }
 
 
-  public AddressRiskReportDetails sourceOfFundsCategories(List<RiskReportCategory> sourceOfFundsCategories) {
+  public TransactionRiskReportDetailsValue sourceOfFundsCategories(List<RiskReportCategory> sourceOfFundsCategories) {
     
     this.sourceOfFundsCategories = sourceOfFundsCategories;
     return this;
   }
 
-  public AddressRiskReportDetails addSourceOfFundsCategoriesItem(RiskReportCategory sourceOfFundsCategoriesItem) {
+  public TransactionRiskReportDetailsValue addSourceOfFundsCategoriesItem(RiskReportCategory sourceOfFundsCategoriesItem) {
     if (this.sourceOfFundsCategories == null) {
       this.sourceOfFundsCategories = new ArrayList<>();
     }
@@ -113,9 +113,9 @@ public class AddressRiskReportDetails {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    AddressRiskReportDetails addressRiskReportDetails = (AddressRiskReportDetails) o;
-    return Objects.equals(this.ownCategories, addressRiskReportDetails.ownCategories) &&
-        Objects.equals(this.sourceOfFundsCategories, addressRiskReportDetails.sourceOfFundsCategories);
+    TransactionRiskReportDetailsValue transactionRiskReportDetailsValue = (TransactionRiskReportDetailsValue) o;
+    return Objects.equals(this.ownCategories, transactionRiskReportDetailsValue.ownCategories) &&
+        Objects.equals(this.sourceOfFundsCategories, transactionRiskReportDetailsValue.sourceOfFundsCategories);
   }
 
   @Override
@@ -126,7 +126,7 @@ public class AddressRiskReportDetails {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class AddressRiskReportDetails {\n");
+    sb.append("class TransactionRiskReportDetailsValue {\n");
     sb.append("    ownCategories: ").append(toIndentedString(ownCategories)).append("\n");
     sb.append("    sourceOfFundsCategories: ").append(toIndentedString(sourceOfFundsCategories)).append("\n");
     sb.append("}");

@@ -52,6 +52,7 @@ src/main/java/io/blockmate/client/model/GetAccountHint200ResponseFields.java
 src/main/java/io/blockmate/client/model/GetAccountHint403Response.java
 src/main/java/io/blockmate/client/model/GetAccountHint404Response.java
 src/main/java/io/blockmate/client/model/GetAddressFromDomain200Response.java
+src/main/java/io/blockmate/client/model/GetAddressNameInfoMulti200ResponseValue.java
 src/main/java/io/blockmate/client/model/GetAddressNameInfoSingle200Response.java
 src/main/java/io/blockmate/client/model/GetAddressRiskScore200Response.java
 src/main/java/io/blockmate/client/model/GetDomainFromAddress200Response.java
@@ -76,13 +77,13 @@ src/main/java/io/blockmate/client/model/OwnedNftMedia.java
 src/main/java/io/blockmate/client/model/RiskReportCategory.java
 src/main/java/io/blockmate/client/model/Transaction.java
 src/main/java/io/blockmate/client/model/TransactionRiskReport.java
+src/main/java/io/blockmate/client/model/TransactionRiskReportDetailsValue.java
 src/main/java/io/blockmate/client/model/Transactions200Response.java
 src/main/java/io/blockmate/client/model/Transactions200ResponseAccountsInner.java
 src/main/java/io/blockmate/client/model/User.java
 src/main/java/io/blockmate/client/model/UserAPIAuthenticateProject200Response.java
 src/main/java/io/blockmate/client/model/UserAPIAuthenticateProject400Response.java
 src/main/java/io/blockmate/client/model/UserAPIAuthenticateProject401Response.java
-src/main/java/io/blockmate/client/request/AccountProviderInfoApi.java
 src/main/java/io/blockmate/client/request/AddressNameAndCategoryInfoApi.java
 src/main/java/io/blockmate/client/request/AggregatedInfoApi.java
 src/main/java/io/blockmate/client/request/AnalyticsApi.java
@@ -90,4 +91,5 @@ src/main/java/io/blockmate/client/request/AuthenticationApi.java
 src/main/java/io/blockmate/client/request/EnsApi.java
 src/main/java/io/blockmate/client/request/ExchangeRateInfoApi.java
 src/main/java/io/blockmate/client/request/RiskInfoApi.java
+src/main/java/io/blockmate/client/request/UserAccountManagementApi.java
 src/main/java/io/blockmate/client/request/UserManagementApi.java
