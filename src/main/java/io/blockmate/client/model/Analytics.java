@@ -275,99 +275,99 @@ public class Analytics extends HashMap<String, Analytics1> {
 
   public static final String SERIALIZED_NAME_FIRST_TXS_ALL_ONCHAIN = "first_txs_all_onchain";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_ALL_ONCHAIN)
-  private String firstTxsAllOnchain;
+  private Integer firstTxsAllOnchain;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_ALL_NFT = "first_txs_all_nft";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_ALL_NFT)
-  private String firstTxsAllNft;
+  private Integer firstTxsAllNft;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_ALL_GAMING = "first_txs_all_gaming";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_ALL_GAMING)
-  private String firstTxsAllGaming;
+  private Integer firstTxsAllGaming;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_ALL_GAMBLING = "first_txs_all_gambling";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_ALL_GAMBLING)
-  private String firstTxsAllGambling;
+  private Integer firstTxsAllGambling;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_IN_ONCHAIN = "first_txs_in_onchain";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_IN_ONCHAIN)
-  private String firstTxsInOnchain;
+  private Integer firstTxsInOnchain;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_IN_NFT = "first_txs_in_nft";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_IN_NFT)
-  private String firstTxsInNft;
+  private Integer firstTxsInNft;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_IN_GAMING = "first_txs_in_gaming";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_IN_GAMING)
-  private String firstTxsInGaming;
+  private Integer firstTxsInGaming;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_IN_GAMBLING = "first_txs_in_gambling";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_IN_GAMBLING)
-  private String firstTxsInGambling;
+  private Integer firstTxsInGambling;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_OUT_ONCHAIN = "first_txs_out_onchain";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_OUT_ONCHAIN)
-  private String firstTxsOutOnchain;
+  private Integer firstTxsOutOnchain;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_OUT_NFT = "first_txs_out_nft";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_OUT_NFT)
-  private String firstTxsOutNft;
+  private Integer firstTxsOutNft;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_OUT_GAMING = "first_txs_out_gaming";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_OUT_GAMING)
-  private String firstTxsOutGaming;
+  private Integer firstTxsOutGaming;
 
   public static final String SERIALIZED_NAME_FIRST_TXS_OUT_GAMBLING = "first_txs_out_gambling";
   @SerializedName(SERIALIZED_NAME_FIRST_TXS_OUT_GAMBLING)
-  private String firstTxsOutGambling;
+  private Integer firstTxsOutGambling;
 
   public static final String SERIALIZED_NAME_LAST_TXS_ALL_ONCHAIN = "last_txs_all_onchain";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_ALL_ONCHAIN)
-  private String lastTxsAllOnchain;
+  private Integer lastTxsAllOnchain;
 
   public static final String SERIALIZED_NAME_LAST_TXS_ALL_NFT = "last_txs_all_nft";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_ALL_NFT)
-  private String lastTxsAllNft;
+  private Integer lastTxsAllNft;
 
   public static final String SERIALIZED_NAME_LAST_TXS_ALL_GAMING = "last_txs_all_gaming";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_ALL_GAMING)
-  private String lastTxsAllGaming;
+  private Integer lastTxsAllGaming;
 
   public static final String SERIALIZED_NAME_LAST_TXS_ALL_GAMBLING = "last_txs_all_gambling";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_ALL_GAMBLING)
-  private String lastTxsAllGambling;
+  private Integer lastTxsAllGambling;
 
   public static final String SERIALIZED_NAME_LAST_TXS_IN_ONCHAIN = "last_txs_in_onchain";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_IN_ONCHAIN)
-  private String lastTxsInOnchain;
+  private Integer lastTxsInOnchain;
 
   public static final String SERIALIZED_NAME_LAST_TXS_IN_NFT = "last_txs_in_nft";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_IN_NFT)
-  private String lastTxsInNft;
+  private Integer lastTxsInNft;
 
   public static final String SERIALIZED_NAME_LAST_TXS_IN_GAMING = "last_txs_in_gaming";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_IN_GAMING)
-  private String lastTxsInGaming;
+  private Integer lastTxsInGaming;
 
   public static final String SERIALIZED_NAME_LAST_TXS_IN_GAMBLING = "last_txs_in_gambling";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_IN_GAMBLING)
-  private String lastTxsInGambling;
+  private Integer lastTxsInGambling;
 
   public static final String SERIALIZED_NAME_LAST_TXS_OUT_ONCHAIN = "last_txs_out_onchain";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_OUT_ONCHAIN)
-  private String lastTxsOutOnchain;
+  private Integer lastTxsOutOnchain;
 
   public static final String SERIALIZED_NAME_LAST_TXS_OUT_NFT = "last_txs_out_nft";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_OUT_NFT)
-  private String lastTxsOutNft;
+  private Integer lastTxsOutNft;
 
   public static final String SERIALIZED_NAME_LAST_TXS_OUT_GAMING = "last_txs_out_gaming";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_OUT_GAMING)
-  private String lastTxsOutGaming;
+  private Integer lastTxsOutGaming;
 
   public static final String SERIALIZED_NAME_LAST_TXS_OUT_GAMBLING = "last_txs_out_gambling";
   @SerializedName(SERIALIZED_NAME_LAST_TXS_OUT_GAMBLING)
-  private String lastTxsOutGambling;
+  private Integer lastTxsOutGambling;
 
   public Analytics() {
 
@@ -1753,554 +1753,554 @@ public class Analytics extends HashMap<String, Analytics1> {
   }
 
 
-  public Analytics firstTxsAllOnchain(String firstTxsAllOnchain) {
+  public Analytics firstTxsAllOnchain(Integer firstTxsAllOnchain) {
     
     this.firstTxsAllOnchain = firstTxsAllOnchain;
     return this;
   }
 
    /**
-   * Time when first transaction occurred
+   * Unix timestamp when first transaction occurred
    * @return firstTxsAllOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first transaction occurred")
 
-  public String getFirstTxsAllOnchain() {
+  public Integer getFirstTxsAllOnchain() {
     return firstTxsAllOnchain;
   }
 
 
-  public void setFirstTxsAllOnchain(String firstTxsAllOnchain) {
+  public void setFirstTxsAllOnchain(Integer firstTxsAllOnchain) {
     this.firstTxsAllOnchain = firstTxsAllOnchain;
   }
 
 
-  public Analytics firstTxsAllNft(String firstTxsAllNft) {
+  public Analytics firstTxsAllNft(Integer firstTxsAllNft) {
     
     this.firstTxsAllNft = firstTxsAllNft;
     return this;
   }
 
    /**
-   * Time when first NFT transaction occurred
+   * Unix timestamp when first NFT transaction occurred
    * @return firstTxsAllNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first NFT transaction occurred")
 
-  public String getFirstTxsAllNft() {
+  public Integer getFirstTxsAllNft() {
     return firstTxsAllNft;
   }
 
 
-  public void setFirstTxsAllNft(String firstTxsAllNft) {
+  public void setFirstTxsAllNft(Integer firstTxsAllNft) {
     this.firstTxsAllNft = firstTxsAllNft;
   }
 
 
-  public Analytics firstTxsAllGaming(String firstTxsAllGaming) {
+  public Analytics firstTxsAllGaming(Integer firstTxsAllGaming) {
     
     this.firstTxsAllGaming = firstTxsAllGaming;
     return this;
   }
 
    /**
-   * Time when first gaming transaction occurred
+   * Unix timestamp when first gaming transaction occurred
    * @return firstTxsAllGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first gaming transaction occurred")
 
-  public String getFirstTxsAllGaming() {
+  public Integer getFirstTxsAllGaming() {
     return firstTxsAllGaming;
   }
 
 
-  public void setFirstTxsAllGaming(String firstTxsAllGaming) {
+  public void setFirstTxsAllGaming(Integer firstTxsAllGaming) {
     this.firstTxsAllGaming = firstTxsAllGaming;
   }
 
 
-  public Analytics firstTxsAllGambling(String firstTxsAllGambling) {
+  public Analytics firstTxsAllGambling(Integer firstTxsAllGambling) {
     
     this.firstTxsAllGambling = firstTxsAllGambling;
     return this;
   }
 
    /**
-   * Time when first gambling transaction occurred
+   * Unix timestamp when first gambling transaction occurred
    * @return firstTxsAllGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first gambling transaction occurred")
 
-  public String getFirstTxsAllGambling() {
+  public Integer getFirstTxsAllGambling() {
     return firstTxsAllGambling;
   }
 
 
-  public void setFirstTxsAllGambling(String firstTxsAllGambling) {
+  public void setFirstTxsAllGambling(Integer firstTxsAllGambling) {
     this.firstTxsAllGambling = firstTxsAllGambling;
   }
 
 
-  public Analytics firstTxsInOnchain(String firstTxsInOnchain) {
+  public Analytics firstTxsInOnchain(Integer firstTxsInOnchain) {
     
     this.firstTxsInOnchain = firstTxsInOnchain;
     return this;
   }
 
    /**
-   * Time when first IN transaction occurred
+   * Unix timestamp when first IN transaction occurred
    * @return firstTxsInOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first IN transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first IN transaction occurred")
 
-  public String getFirstTxsInOnchain() {
+  public Integer getFirstTxsInOnchain() {
     return firstTxsInOnchain;
   }
 
 
-  public void setFirstTxsInOnchain(String firstTxsInOnchain) {
+  public void setFirstTxsInOnchain(Integer firstTxsInOnchain) {
     this.firstTxsInOnchain = firstTxsInOnchain;
   }
 
 
-  public Analytics firstTxsInNft(String firstTxsInNft) {
+  public Analytics firstTxsInNft(Integer firstTxsInNft) {
     
     this.firstTxsInNft = firstTxsInNft;
     return this;
   }
 
    /**
-   * Time when first IN NFT transaction occurred
+   * Unix timestamp when first IN NFT transaction occurred
    * @return firstTxsInNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first IN NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first IN NFT transaction occurred")
 
-  public String getFirstTxsInNft() {
+  public Integer getFirstTxsInNft() {
     return firstTxsInNft;
   }
 
 
-  public void setFirstTxsInNft(String firstTxsInNft) {
+  public void setFirstTxsInNft(Integer firstTxsInNft) {
     this.firstTxsInNft = firstTxsInNft;
   }
 
 
-  public Analytics firstTxsInGaming(String firstTxsInGaming) {
+  public Analytics firstTxsInGaming(Integer firstTxsInGaming) {
     
     this.firstTxsInGaming = firstTxsInGaming;
     return this;
   }
 
    /**
-   * Time when first IN gaming transaction occurred
+   * Unix timestamp when first IN gaming transaction occurred
    * @return firstTxsInGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first IN gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first IN gaming transaction occurred")
 
-  public String getFirstTxsInGaming() {
+  public Integer getFirstTxsInGaming() {
     return firstTxsInGaming;
   }
 
 
-  public void setFirstTxsInGaming(String firstTxsInGaming) {
+  public void setFirstTxsInGaming(Integer firstTxsInGaming) {
     this.firstTxsInGaming = firstTxsInGaming;
   }
 
 
-  public Analytics firstTxsInGambling(String firstTxsInGambling) {
+  public Analytics firstTxsInGambling(Integer firstTxsInGambling) {
     
     this.firstTxsInGambling = firstTxsInGambling;
     return this;
   }
 
    /**
-   * Time when first IN gambling transaction occurred
+   * Unix timestamp when first IN gambling transaction occurred
    * @return firstTxsInGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first IN gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first IN gambling transaction occurred")
 
-  public String getFirstTxsInGambling() {
+  public Integer getFirstTxsInGambling() {
     return firstTxsInGambling;
   }
 
 
-  public void setFirstTxsInGambling(String firstTxsInGambling) {
+  public void setFirstTxsInGambling(Integer firstTxsInGambling) {
     this.firstTxsInGambling = firstTxsInGambling;
   }
 
 
-  public Analytics firstTxsOutOnchain(String firstTxsOutOnchain) {
+  public Analytics firstTxsOutOnchain(Integer firstTxsOutOnchain) {
     
     this.firstTxsOutOnchain = firstTxsOutOnchain;
     return this;
   }
 
    /**
-   * Time when first OUT transaction occurred
+   * Unix timestamp when first OUT transaction occurred
    * @return firstTxsOutOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first OUT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first OUT transaction occurred")
 
-  public String getFirstTxsOutOnchain() {
+  public Integer getFirstTxsOutOnchain() {
     return firstTxsOutOnchain;
   }
 
 
-  public void setFirstTxsOutOnchain(String firstTxsOutOnchain) {
+  public void setFirstTxsOutOnchain(Integer firstTxsOutOnchain) {
     this.firstTxsOutOnchain = firstTxsOutOnchain;
   }
 
 
-  public Analytics firstTxsOutNft(String firstTxsOutNft) {
+  public Analytics firstTxsOutNft(Integer firstTxsOutNft) {
     
     this.firstTxsOutNft = firstTxsOutNft;
     return this;
   }
 
    /**
-   * Time when first OUT NFT transaction occurred
+   * Unix timestamp when first OUT NFT transaction occurred
    * @return firstTxsOutNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first OUT NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first OUT NFT transaction occurred")
 
-  public String getFirstTxsOutNft() {
+  public Integer getFirstTxsOutNft() {
     return firstTxsOutNft;
   }
 
 
-  public void setFirstTxsOutNft(String firstTxsOutNft) {
+  public void setFirstTxsOutNft(Integer firstTxsOutNft) {
     this.firstTxsOutNft = firstTxsOutNft;
   }
 
 
-  public Analytics firstTxsOutGaming(String firstTxsOutGaming) {
+  public Analytics firstTxsOutGaming(Integer firstTxsOutGaming) {
     
     this.firstTxsOutGaming = firstTxsOutGaming;
     return this;
   }
 
    /**
-   * Time when first OUT gaming transaction occurred
+   * Unix timestamp when first OUT gaming transaction occurred
    * @return firstTxsOutGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first OUT gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first OUT gaming transaction occurred")
 
-  public String getFirstTxsOutGaming() {
+  public Integer getFirstTxsOutGaming() {
     return firstTxsOutGaming;
   }
 
 
-  public void setFirstTxsOutGaming(String firstTxsOutGaming) {
+  public void setFirstTxsOutGaming(Integer firstTxsOutGaming) {
     this.firstTxsOutGaming = firstTxsOutGaming;
   }
 
 
-  public Analytics firstTxsOutGambling(String firstTxsOutGambling) {
+  public Analytics firstTxsOutGambling(Integer firstTxsOutGambling) {
     
     this.firstTxsOutGambling = firstTxsOutGambling;
     return this;
   }
 
    /**
-   * Time when first OUT gambling transaction occurred
+   * Unix timestamp when first OUT gambling transaction occurred
    * @return firstTxsOutGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when first OUT gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when first OUT gambling transaction occurred")
 
-  public String getFirstTxsOutGambling() {
+  public Integer getFirstTxsOutGambling() {
     return firstTxsOutGambling;
   }
 
 
-  public void setFirstTxsOutGambling(String firstTxsOutGambling) {
+  public void setFirstTxsOutGambling(Integer firstTxsOutGambling) {
     this.firstTxsOutGambling = firstTxsOutGambling;
   }
 
 
-  public Analytics lastTxsAllOnchain(String lastTxsAllOnchain) {
+  public Analytics lastTxsAllOnchain(Integer lastTxsAllOnchain) {
     
     this.lastTxsAllOnchain = lastTxsAllOnchain;
     return this;
   }
 
    /**
-   * Time when last transaction occurred
+   * Unix timestamp when last transaction occurred
    * @return lastTxsAllOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last transaction occurred")
 
-  public String getLastTxsAllOnchain() {
+  public Integer getLastTxsAllOnchain() {
     return lastTxsAllOnchain;
   }
 
 
-  public void setLastTxsAllOnchain(String lastTxsAllOnchain) {
+  public void setLastTxsAllOnchain(Integer lastTxsAllOnchain) {
     this.lastTxsAllOnchain = lastTxsAllOnchain;
   }
 
 
-  public Analytics lastTxsAllNft(String lastTxsAllNft) {
+  public Analytics lastTxsAllNft(Integer lastTxsAllNft) {
     
     this.lastTxsAllNft = lastTxsAllNft;
     return this;
   }
 
    /**
-   * Time when last NFT transaction occurred
+   * Unix timestamp when last NFT transaction occurred
    * @return lastTxsAllNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last NFT transaction occurred")
 
-  public String getLastTxsAllNft() {
+  public Integer getLastTxsAllNft() {
     return lastTxsAllNft;
   }
 
 
-  public void setLastTxsAllNft(String lastTxsAllNft) {
+  public void setLastTxsAllNft(Integer lastTxsAllNft) {
     this.lastTxsAllNft = lastTxsAllNft;
   }
 
 
-  public Analytics lastTxsAllGaming(String lastTxsAllGaming) {
+  public Analytics lastTxsAllGaming(Integer lastTxsAllGaming) {
     
     this.lastTxsAllGaming = lastTxsAllGaming;
     return this;
   }
 
    /**
-   * Time when last gaming transaction occurred
+   * Unix timestamp when last gaming transaction occurred
    * @return lastTxsAllGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last gaming transaction occurred")
 
-  public String getLastTxsAllGaming() {
+  public Integer getLastTxsAllGaming() {
     return lastTxsAllGaming;
   }
 
 
-  public void setLastTxsAllGaming(String lastTxsAllGaming) {
+  public void setLastTxsAllGaming(Integer lastTxsAllGaming) {
     this.lastTxsAllGaming = lastTxsAllGaming;
   }
 
 
-  public Analytics lastTxsAllGambling(String lastTxsAllGambling) {
+  public Analytics lastTxsAllGambling(Integer lastTxsAllGambling) {
     
     this.lastTxsAllGambling = lastTxsAllGambling;
     return this;
   }
 
    /**
-   * Time when last gambling transaction occurred
+   * Unix timestamp when last gambling transaction occurred
    * @return lastTxsAllGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last gambling transaction occurred")
 
-  public String getLastTxsAllGambling() {
+  public Integer getLastTxsAllGambling() {
     return lastTxsAllGambling;
   }
 
 
-  public void setLastTxsAllGambling(String lastTxsAllGambling) {
+  public void setLastTxsAllGambling(Integer lastTxsAllGambling) {
     this.lastTxsAllGambling = lastTxsAllGambling;
   }
 
 
-  public Analytics lastTxsInOnchain(String lastTxsInOnchain) {
+  public Analytics lastTxsInOnchain(Integer lastTxsInOnchain) {
     
     this.lastTxsInOnchain = lastTxsInOnchain;
     return this;
   }
 
    /**
-   * Time when last IN transaction occurred
+   * Unix timestamp when last IN transaction occurred
    * @return lastTxsInOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last IN transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last IN transaction occurred")
 
-  public String getLastTxsInOnchain() {
+  public Integer getLastTxsInOnchain() {
     return lastTxsInOnchain;
   }
 
 
-  public void setLastTxsInOnchain(String lastTxsInOnchain) {
+  public void setLastTxsInOnchain(Integer lastTxsInOnchain) {
     this.lastTxsInOnchain = lastTxsInOnchain;
   }
 
 
-  public Analytics lastTxsInNft(String lastTxsInNft) {
+  public Analytics lastTxsInNft(Integer lastTxsInNft) {
     
     this.lastTxsInNft = lastTxsInNft;
     return this;
   }
 
    /**
-   * Time when last IN NFT transaction occurred
+   * Unix timestamp when last IN NFT transaction occurred
    * @return lastTxsInNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last IN NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last IN NFT transaction occurred")
 
-  public String getLastTxsInNft() {
+  public Integer getLastTxsInNft() {
     return lastTxsInNft;
   }
 
 
-  public void setLastTxsInNft(String lastTxsInNft) {
+  public void setLastTxsInNft(Integer lastTxsInNft) {
     this.lastTxsInNft = lastTxsInNft;
   }
 
 
-  public Analytics lastTxsInGaming(String lastTxsInGaming) {
+  public Analytics lastTxsInGaming(Integer lastTxsInGaming) {
     
     this.lastTxsInGaming = lastTxsInGaming;
     return this;
   }
 
    /**
-   * Time when last IN gaming transaction occurred
+   * Unix timestamp when last IN gaming transaction occurred
    * @return lastTxsInGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last IN gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last IN gaming transaction occurred")
 
-  public String getLastTxsInGaming() {
+  public Integer getLastTxsInGaming() {
     return lastTxsInGaming;
   }
 
 
-  public void setLastTxsInGaming(String lastTxsInGaming) {
+  public void setLastTxsInGaming(Integer lastTxsInGaming) {
     this.lastTxsInGaming = lastTxsInGaming;
   }
 
 
-  public Analytics lastTxsInGambling(String lastTxsInGambling) {
+  public Analytics lastTxsInGambling(Integer lastTxsInGambling) {
     
     this.lastTxsInGambling = lastTxsInGambling;
     return this;
   }
 
    /**
-   * Time when last IN gambling transaction occurred
+   * Unix timestamp when last IN gambling transaction occurred
    * @return lastTxsInGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last IN gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last IN gambling transaction occurred")
 
-  public String getLastTxsInGambling() {
+  public Integer getLastTxsInGambling() {
     return lastTxsInGambling;
   }
 
 
-  public void setLastTxsInGambling(String lastTxsInGambling) {
+  public void setLastTxsInGambling(Integer lastTxsInGambling) {
     this.lastTxsInGambling = lastTxsInGambling;
   }
 
 
-  public Analytics lastTxsOutOnchain(String lastTxsOutOnchain) {
+  public Analytics lastTxsOutOnchain(Integer lastTxsOutOnchain) {
     
     this.lastTxsOutOnchain = lastTxsOutOnchain;
     return this;
   }
 
    /**
-   * Time when last OUT transaction occurred
+   * Unix timestamp when last OUT transaction occurred
    * @return lastTxsOutOnchain
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last OUT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last OUT transaction occurred")
 
-  public String getLastTxsOutOnchain() {
+  public Integer getLastTxsOutOnchain() {
     return lastTxsOutOnchain;
   }
 
 
-  public void setLastTxsOutOnchain(String lastTxsOutOnchain) {
+  public void setLastTxsOutOnchain(Integer lastTxsOutOnchain) {
     this.lastTxsOutOnchain = lastTxsOutOnchain;
   }
 
 
-  public Analytics lastTxsOutNft(String lastTxsOutNft) {
+  public Analytics lastTxsOutNft(Integer lastTxsOutNft) {
     
     this.lastTxsOutNft = lastTxsOutNft;
     return this;
   }
 
    /**
-   * Time when last OUT NFT transaction occurred
+   * Unix timestamp when last OUT NFT transaction occurred
    * @return lastTxsOutNft
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last OUT NFT transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last OUT NFT transaction occurred")
 
-  public String getLastTxsOutNft() {
+  public Integer getLastTxsOutNft() {
     return lastTxsOutNft;
   }
 
 
-  public void setLastTxsOutNft(String lastTxsOutNft) {
+  public void setLastTxsOutNft(Integer lastTxsOutNft) {
     this.lastTxsOutNft = lastTxsOutNft;
   }
 
 
-  public Analytics lastTxsOutGaming(String lastTxsOutGaming) {
+  public Analytics lastTxsOutGaming(Integer lastTxsOutGaming) {
     
     this.lastTxsOutGaming = lastTxsOutGaming;
     return this;
   }
 
    /**
-   * Time when last OUT gaming transaction occurred
+   * Unix timestamp when last OUT gaming transaction occurred
    * @return lastTxsOutGaming
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last OUT gaming transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last OUT gaming transaction occurred")
 
-  public String getLastTxsOutGaming() {
+  public Integer getLastTxsOutGaming() {
     return lastTxsOutGaming;
   }
 
 
-  public void setLastTxsOutGaming(String lastTxsOutGaming) {
+  public void setLastTxsOutGaming(Integer lastTxsOutGaming) {
     this.lastTxsOutGaming = lastTxsOutGaming;
   }
 
 
-  public Analytics lastTxsOutGambling(String lastTxsOutGambling) {
+  public Analytics lastTxsOutGambling(Integer lastTxsOutGambling) {
     
     this.lastTxsOutGambling = lastTxsOutGambling;
     return this;
   }
 
    /**
-   * Time when last OUT gambling transaction occurred
+   * Unix timestamp when last OUT gambling transaction occurred
    * @return lastTxsOutGambling
   **/
   @javax.annotation.Nullable
-  @ApiModelProperty(example = "2021-10-10T11:11:16Z", value = "Time when last OUT gambling transaction occurred")
+  @ApiModelProperty(example = "1674481020", value = "Unix timestamp when last OUT gambling transaction occurred")
 
-  public String getLastTxsOutGambling() {
+  public Integer getLastTxsOutGambling() {
     return lastTxsOutGambling;
   }
 
 
-  public void setLastTxsOutGambling(String lastTxsOutGambling) {
+  public void setLastTxsOutGambling(Integer lastTxsOutGambling) {
     this.lastTxsOutGambling = lastTxsOutGambling;
   }
 
